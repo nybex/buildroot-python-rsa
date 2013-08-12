@@ -6,7 +6,7 @@
 
 PYTHON_RSA_VERSION = c17464ffc4fd
 PYTHON_RSA_SITE = https://bitbucket.org/sybren/python-rsa/get/
-PYTHON_RSA_SOURCE = $(PYTHON_RSA_VERSION).zip
+PYTHON_RSA_SOURCE = $(PYTHON_RSA_VERSION).tar.gz
 PYTHON_RSA_DEPENDENCIES = python host-python-setuptools
 
 define PYTHON_RSA_BUILD_CMDS
